@@ -1,0 +1,78 @@
+body {
+        background: linear-gradient(
+          circle at 18.7% 37.8%,
+          rgb(250, 250, 250) 0%,
+          rgb(225, 234, 238) 90%
+        );
+        max-width: 100%;
+      }
+      .surround {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px 60px;
+      }
+      h1 {
+        font-size: 40px;
+        text-align: center;
+        color: #24527a;
+      }
+      h2 {
+        text-align: center;
+        color: #24527a;
+        border: 3px solid #24527a;
+        border-radius: 5px;
+        line-height: 40px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 5px;
+      }
+      .second-largest {
+        line-height: 1.5;
+        font-size: 15px;
+        margin: 10px 0px 10px;
+      }
+      .read-more {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 20px auto 1px auto;
+      }
+      .visit-sweden {
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        color: #24527a;
+      }
+      .visit-sweden:hover {
+        text-decoration: underline;
+      }
+      button {
+        display: block;
+        margin: 15px auto;
+        color: #ffffff;
+        background: #24527a;
+        font-size: 15px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+        color: #24527a;
+        background: #ffffff;
+      }
+      .built-by {
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+      }
+      .contact-link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
